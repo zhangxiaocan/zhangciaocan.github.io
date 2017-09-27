@@ -1,0 +1,16 @@
+input获取焦点，进行如下验证（手机号）
+
+input失去焦点，进行如下验证（手机号）
+1.请输入手机号
+2.请输入正确的手机号(手机号11位，以1开头)
+3.该账号已被注册(此用户名太受欢迎,请更换一个)
+4.格式正确
+
+var username = $('.username').val(); 
+var password = $('.paddword').val(); 
+localStorage.setItem( username , password );
+localStorage.setItem( $('.username').val() , $('.password').val() )
+
+localStorage.setItem(key,value) save
+localStorage.getItem(key)		get
+localStorage.removeItem(key)	remove

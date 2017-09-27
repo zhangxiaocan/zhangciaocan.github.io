@@ -1,0 +1,154 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+    position: relative;
+    height: 100%;
+
+}
+li{
+	list-style: none;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+/* 顶部导航条－－－－－－－－－－－－－－－－－－－－－－ */
+.topnav{
+	width: 100%;
+	height: 50px;
+	background-color:#d7d9de;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+	/* display: block; */
+}
+.topnav .bg{
+	
+	width: 80%;
+	margin: 0 auto;
+	height: 5%;
+	position: relative;
+	z-index: 9999;
+	
+
+}
+.topnav .bg .logo1 img{
+	margin-top:7px;
+	width: 35px;
+	height: 35px;
+}
+.topnav .bg .logo1 span{
+	position:absolute;
+	margin-top: 13px;
+	margin-left:10px;
+	font-size: 16px;
+	z-index: 99999;
+}
+/*li标签 */
+.topnav .bg div ul li{
+	/* border: 1px solid; */
+	float: left;
+	width: 100px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 200;
+}
+.topnav .bg div ul{
+	position: absolute;
+	top: 15px;
+	left:185px;
+}
+/* 右边图片 */
+.topnav .bg .logo2 img{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 6px;
+	right: 150px;
+}
+/* 右边文字 */
+.topnav .bg .logo2 #but1{
+	position: absolute;
+	top: 16px;
+	right:80px;
+}
+.topnav .bg .logo2 #but2{
+	position: absolute;
+	top: 16px;
+	right: 40px;
+}
+.topnav .bg .logo2 #but3{
+	position: absolute;
+	top: 16px;
+	right: 0px;
+}
+/* swiper----------------－－－－－－－－－－－－－ */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    /* margin-top: 50px; */
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+        /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/* .swiper-slide video{
+	 width: 100%;
+	height: 100%;
+	position: absolute;
+} */
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide .clab{
+	position: absolute;
+	width: 588px;
+	height:612px;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	
+}
+.swiper-slide .table{
+	position: absolute;
+	width: 795px;
+	height:369px;
+	bottom: 50px;
+	right: 0;
+	z-index: 9999;
+}
+/* ------------登陆注册界面－－－－－－－－－－－－ */
+
+
+
+
+
+
+
+
+
+
+

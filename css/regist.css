@@ -1,0 +1,186 @@
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #fedc71;
+	position: relative;
+}
+input{
+	outline:none;
+}
+body img{
+	width: 100%;
+	height: 800px;
+
+}
+body .logo{
+	position: absolute;
+	width: 200px;
+	height: 50px;
+	/* border: 1px solid; */
+	left: 150px;
+	z-index: 9999;
+}
+body .logo img{
+	width: 45px;
+	height: 45px;
+}
+body .logo span{
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 12px;
+	font-size: 15px;
+	font-weight: 200;
+}
+/* 登录注册－－－－－－－－－－－－－－－－－－ */
+body .tab{
+	
+	width: 35%;
+	height: 500px;
+	background-color: white;
+	position: absolute;
+	bottom: 50px;
+	right: 60px;
+	border-radius: 10px;
+	border-top: 3px solid pink;
+	box-sizing: border-box;
+	box-shadow:5px 5px 20px gray;
+	min-width: 350px;
+	max-width: 350px;
+	margin: auto;
+}
+body .tab .bor{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+}
+ body .tab .bor #codes{
+ 	position: absolute;
+ 	background-color: pink;
+ 	width: 80px;
+ 	height: 50px;
+ 	border-radius: 6px;
+ 	top: 149px;
+ 	right: 105px;
+ 	text-align: center;
+ 	line-height: 50px;
+ 	color: white;
+ }
+
+body .tab .bor .word1{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-left: 3px solid #b75053;
+	padding-left:10px;
+	padding-top:3px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	font-size: 18px;
+	margin-top: 6px;
+
+}
+body .tab .bor input{
+	width: 250px;
+	height: 50px;
+	border: 1px solid #b75053;
+	box-sizing: border-box;
+	margin-top: 15px;
+	border-radius: 0  6px 6px 0;
+	margin-left:34px;
+	font-size: 18px;
+}
+body .tab .bor #number{
+	width: 70%;
+
+}
+body .tab .bor .number{
+	font-size: 10px;
+	color: lightblue;
+	margin-left: 10px;
+}
+body .tab .bor .word2{
+	display: flex;
+	justify-content: space-between;
+}
+body .tab .bor .must{
+	font-size: 15px;
+	color: #b75053;
+}
+
+body .tab .bor #btn{
+	background-color: #e2454e;
+	color: white;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+/*input标签里小的图标 */
+.tab .bor .smallimg{
+	width: 35px;
+	height: 50px;
+	background-color:  pink;
+	position: absolute;
+	border-radius:6px 0 0 6px;
+	top: 61px;
+	text-align: center;
+	border: 1px solid #e2454e;
+	box-sizing: border-box;
+
+}
+.tab .bor .smallimg img{
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	
+}
+.tab .bor .two{
+	margin-top: 87px;
+}
+.tab .bor .three{
+	margin-top: 176px;
+}
+.tab .bor .four{
+	margin-top: 263px;
+}
+.tab .bor .getnum{
+	width: 60px;
+	height: 50px;
+	margin-left: 80px;
+	background-color: #e2454e;
+	color: white;
+	font-size: 5px;
+	border-radius: 6px;
+}
+.tab .bor #number1{
+	width: 110px;
+	height: 50px;
+}
+.tab .bor #btn{
+	border-radius: 6px;
+	width: 300px;
+	margin-left: 0;
+	height: 40px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

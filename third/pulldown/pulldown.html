@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>pulldown</title>
+	<style>
+		*{margin: 0;padding: 0;}
+		.cc{
+			width: 600px;
+			height: 300px;
+			border: 1px solid #000;
+			margin: 100px auto;
+		}
+		.cc .pulldown{
+			width: 100px;
+			height: 40px;
+			line-height: 40px;
+			border: 1px solid #000;
+			margin: 100px auto;
+			padding-left: 20px;
+		}
+		.cc .pulldown img{
+			vertical-align: middle;
+			margin-top: -4px;
+		}
+		.cc .pulldown .pull-select{
+			list-style: none;
+			border: 1px solid #000;
+			width: 100px;
+			margin-left: -10px;
+			text-align: center;
+			height: 130px;
+			overflow: auto;
+			display: none;
+		}
+		.cc .pulldown .pull-select li{
+			border-bottom: 1px solid;
+		}
+	</style>
+	<script src='jquery.min.js'></script>
+	<script>
+		$(function  () {
+			$('.pulldown').on('click',function(){
+				if( $('.pull-select').is(':hidden') ){
+					$('.pull-select').css('display','block');
+					$('.pulldown img').css('transform','rotate(180deg)')
+				}else{
+					$('.pull-select').css('display','none');
+					$('.pulldown img').css('transform','rotate(360deg)')
+				}
+			});
+			$('.pull-select').find('li').click(function(){
+				$('#cc').html( $(this).html() ); 
+			})
+		})
+	</script>
+</head>
+<body>
+	<div class="cc">
+		<div class="pulldown">
+			<span id='cc'>南京</span>
+			<img src="header-01.png">
+			<ul class="pull-select">
+				<li>北京</li>
+				<li>徐州</li>
+				<li>南通</li>
+				<li>扬州</li>
+				<li>无锡</li>
+				<li>苏州</li>
+				<li>盐城</li>
+				<li>宿迁</li>
+				<li>镇江</li>
+			</ul>	
+		</div>
+	</div>
+</body>
+</html>
